@@ -42,8 +42,8 @@ if submit:
         opencv_image.shape = (1,224,224,3)
         predictions = model.predict(opencv_image)
         if predictions[0][0]>=0.5:
-          st.text('This is an image of:Lumpy Skin ')
+          st.text('This is an image of: Lumpy Skin ')
             
         elif predictions[0][1]>0.5:
-          st.text('This is an image of:normal Skin ')
+          st.text('This is an image of: Normal Skin ')
             
