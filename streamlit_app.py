@@ -14,7 +14,7 @@ from tensorflow.keras.applications import DenseNet169
 #Loading the Model
 model = load_model('densenet169.h5', compile=False)
 
-st.image('logo.png')
+# st.image('logo.png')
 st.markdown("## Lumpy Skin Disease Identifier with Deep Learning")
 st.markdown("""
 This app uses Deep learning Model(DENSENET169) to  classify images as either positive or negative for Lumpy Skin Disease.
